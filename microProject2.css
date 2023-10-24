@@ -243,6 +243,7 @@ b{
 .btn{
     display: flex;
     margin-right: 20px;
+    margin-bottom: 15px;
     justify-content: flex-end;
     letter-spacing: 1px;
 }
