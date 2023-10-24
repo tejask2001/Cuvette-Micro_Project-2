@@ -56,21 +56,23 @@ li:hover,.assistant:hover,.btnn:hover,.socialMedia:hover{
     width: 180px;
     background-color: white;
     color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: #9F9F9F;
     padding-left: 15px;
     padding-right: 10px;
 }
-.searchText{
+::placeholder{
     font-size: 14px;
     font-weight: 400;
     font-family: 'DM Sans', sans-serif;
 }
+nav ul li:last-of-type{
+    position: relative;
+}
 .searchImg{
-    height: 50%;
-    width: auto;
+    position: absolute;
+    height: 60%;
+    top: 6px;
+    right: 15px;
 }
 .menuImg{
     height: 25px;
@@ -91,7 +93,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 1200px;
-    width: 1200px;
+    width: 100%;
 }
 .main1{
     height: auto;
@@ -100,7 +102,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
 }
-.group1{
+.image1{
     margin-top: 10px;
     height: 400px;
     width: 350px;
@@ -108,7 +110,7 @@ main{
 }
 .box1{
     height:355px;
-    width: 600px;
+    width: 700px;
     border-radius: 8px;
     box-shadow: 2px 4px 27px #00000040 inset;
     background-color: #E5D8FF;
